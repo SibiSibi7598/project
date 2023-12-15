@@ -1,0 +1,149 @@
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\SIBI>python
+Python 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a=10
+>>> type(a)
+<class 'int'>
+>>> id(a)
+140703710700616
+>>> l=[10,20,30,40]
+>>> id(l)
+1636427665088
+>>> l(0)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'list' object is not callable
+>>> l[2]
+30
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> l=[]
+>>> type(l)
+<class 'list'>
+>>>
+>>>
+>>>
+>>> l=[100, 200, 300, 400, 500]
+>>> l=[0]
+>>> l[0]
+0
+>>>
+>>>
+>>>
+>>>
+>>> l=[100, 200, 300, 400, 500]
+>>> l[2]
+300
+>>> id(l)
+1636427665088
+>>> l[2]=700
+>>> l[3]=800
+>>> l
+[100, 200, 700, 800, 500]
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> a=40
+>>> type(a)
+<class 'int'>
+>>>
+>>> a=a+1
+>>> a
+41
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> a=40
+>>> type(a)
+<class 'int'>
+>>> id(a)
+140703710701576
+>>>
+>>> a=a+2
+>>> a
+42
+>>> id(a)
+140703710701640
+>>>
+>>>
+>>>
+>>> b=[]
+>>> type(b)
+<class 'list'>
+>>>
+>>>
+>>>
+>>> b.append(10)
+>>> b.append(20)
+>>> b.append(30)
+>>> b.append(40)
+>>> b.append(50)
+>>>
+>>> b
+[10, 20, 30, 40, 50]
+>>>
+>>>
+>>> b.remove(30)
+>>> b
+[10, 20, 40, 50]
+>>>
+>>>
+>>>
+>>>
+>>> b.append('html')
+>>> b.append(10.56j)
+>>> b.append(10+56j)
+>>> b
+[10, 20, 40, 50, 'html', 10.56j, (10+56j)]
+>>>
+>>>
+>>>
+>>> a[3]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not subscriptable
+>>>
+>>>
+>>>
+>>>
+>>> b[3]
+50
+>>>
+>>>
+>>> b[:2]
+[10, 20]
+>>>
+>>> b[4:]
+['html', 10.56j, (10+56j)]
+>>>
+>>> a[0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not subscriptable
+>>>
+>>>
+>>>
+>>> a[0]=10
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object does not support item assignment
+>>>
+>>>
+>>> b[0]=10
+>>> b
+[10, 20, 40, 50, 'html', 10.56j, (10+56j)]
+>>>

@@ -1,0 +1,81 @@
+Flow Control
+
+ 
+Flow control describes the order in which statements will be executed at runtime
+
+CONDITIONAL STATEMENTS:
+	*if
+	*if-else
+	*if-elif-else
+
+INPUT:
+
+name=input('Enter Name:')
+if name=='sibi':
+   print('Hello Sibi Good Morning')
+print('How are you')
+
+OUTPUT:
+
+D:\Python assignment>python test.py
+Enter Name:sibi
+Hello Sibi Good Morning
+How are you
+
+
+2. if-else
+if condition is true then Action-1 will be executed otherwise Action-2 will be executed.
+
+INPUT:
+
+name=input('Enter Name:')
+if name=='Roshan':
+   print('Hello Roshan How is Your Day')
+else:
+   print('who are you but')
+print('How are you')
+
+OUTPUT:
+
+D:\Python assignment>test.py
+Enter Name:Roshan
+Hello Roshan How is Your Day
+How are you
+
+D:\Python assignment>python test.py
+Enter Name:Ranjith
+who are you but
+How are you
+
+
+3. if-elif-else
+Based condition the corresponding action will be executed.
+
+INPUT:
+
+print("Number Type Checker!")
+number = float(input("Enter a number: "))
+
+if number > 0:
+	print("The number is positive.")
+elif number < 0:
+	print("The number is negative.")
+else:
+	print("The number is zero.")
+
+OUTPUT:
+
+D:\Python assignment>test.py
+Number Type Checker!
+Enter a number: 55
+The number is positive.
+
+D:\Python assignment>test.py
+Number Type Checker!
+Enter a number: -20
+The number is negative.
+
+D:\Python assignment>test.py
+Number Type Checker!
+Enter a number: 0
+The number is zero.
